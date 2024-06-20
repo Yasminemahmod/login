@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login</title>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+</head>
+<body class="main-bg-color">
+  
+  <div class="container main-bg-colormx-auto my-5 p-5 text-center">
+    <!-- LoginPart -->
+    <div id="login" class="the-card active">
+      <h1 class=" b-3 text-capitalize main-color">smart login system</h1>
+
+      <input class="fs-6 border rounded-1 w-100 main-bg-color text-white px-3 py-2 mb-3" type="email" name="mail" id="mail" placeholder="Enter your email">
+      <span class="d-none text-center text-danger mb-3"></span>
+      <input class="fs-6 border rounded-1 w-100 main-bg-color text-white px-3 py-2" type="password" name="pass" id="pass" placeholder="Enter your password">
+      <span class="d-none text-center text-danger mb-3"></span>
+
+      <button type="submit" class="btn btn-info w-100 mt-4 mb-2 rounded-1">Login</button>
+
+      <p class="text-white fs-6 m-0 p-0">Don't have any account? <a href="#signUp" class="text-white text-decoration-none">Sign Up</a></p>
+    </div>
+
+
+    <!-- Sign UP Part -->
+    <div id="signUp" class="the-card">
+      <h1 class="mb-3 text-capitalize main-color">smart login system</h1>
+
+      <input class="fs-6 border rounded-1 w-100 main-bg-color text-white px-3 py-2 mb-3" type="text" name="name" id="name" placeholder="Enter your name">
+      <span class="d-none text-center text-danger mb-3"></span>
+      <input class="fs-6 border rounded-1 w-100 main-bg-color text-white px-3 py-2 mb-3" type="email" name="mail" id="usrMail" placeholder="Enter your email">
+      <span class="d-none text-center text-danger mb-3"></span>
+      <input class="fs-6 border rounded-1 w-100 main-bg-color text-white px-3 py-2" type="password" name="pass" id="usrPass" placeholder="Enter your password">
+      <span class="d-none text-center text-danger mb-3"></span>
+  
+      <button type="submit" class="btn btn-info w-100 mt-4 mb-2 rounded-1">Sign Up</button>
+  
+      <p class="text-white fs-6 m-0 p-0">You have an account? <a href="#login" class="text-white text-decoration-none">Signin</a></p>
+    </div>
+
+    <div id="home-page" class="the-card">
+      <h1 class="welcome m-5 p-5 text-white text-capitalize"></h1>
+      <button type="submit" class="btn btn-danger w-25 mt-4 mb-2 rounded-1">Log Out</button>
+    </div>
+  </div>
+
+
+
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>

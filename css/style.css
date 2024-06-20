@@ -1,0 +1,56 @@
+.main-bg-color {
+  background-color: #24353f;
+}
+.main-color {
+  color: #17a2b8;
+}
+.main-border {
+  border-color: #17a2b8;
+}
+input:focus {
+  outline: none;
+  border-color: #17a2b8 !important;
+}
+input::placeholder {
+  color: #ccc
+}
+
+.container {
+  box-shadow: 0 0 27px -4px #000;
+}
+.the-card {
+  display: none;
+}
+.the-card.active {
+  display: block;
+}
+
+.btn-info {
+  --bs-btn-color: #0dcaf0b6;
+  --bs-btn-bg: #24353f;
+  --bs-btn-border-color: #0dcaf0b6;
+  --bs-btn-hover-bg: #0dcaf0b6;
+  --bs-btn-border: #0dcaf0b6;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-border-color: #0dcaf0b6;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(181, 222, 231, 0.585);
+  --bs-btn-disabled-color: #fff;
+}
+
+
+@media (min-width: 576px) {
+  .container, .container-sm {
+      max-width: 380px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+      max-width: 550px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+      max-width: 830px;
+  }
+}
